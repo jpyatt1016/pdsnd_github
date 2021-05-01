@@ -3,9 +3,9 @@ library(ggplot2)
 library(lubridate)
 
 #Load Datafiles for each Citys Bike Data
-chi<- read.csv("chicago.csv", sep = ",")
-ny<- read.csv("new-york-city.csv", sep = ",")
-wash<-read.csv("washington.csv", sep = ",")
+chi<- read.table(file.choose(), header =TRUE, sep = ",")
+ny<- read.table(file.choose(), header =TRUE, sep = ",")
+wash<- read.table(file.choose(), header =TRUE, sep = ",")
 
 ##What months are the bikes used most?
 #add cityname column to CHI and NYC data
