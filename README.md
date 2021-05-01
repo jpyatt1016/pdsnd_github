@@ -1,17 +1,31 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
-### Date created
-Include the date you created this project and README file.
+### Created 5/1/2021 by Jill
 
-### Project Title
-Replace the Project Title
+### Explore Bike Share Data
 
-### Description
-Describe what your project is about and what it does
+## Description
+I aimed to answer questions about available bikeshare user data from Washington, Chicago and New York.
+My questions are:
+-What is the age of bikeshare users by gender in Chicago and New York City?
+-What months are the bikes used most?
+-How does trip duration vary between customers and subscribers?
 
-### Files used
-Include the files used
+## Files used
+Data used in this project must be downloaded through [Udacity] (https://www.udacity.com/).
+The following files were used:
+-chicago.csv
+-new-york-city.csv
+-washington.csv
+Data is provided by [Motivate] (https://www.motivateco.com/).
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+## Installation
+All code was written using **RStudio Version 1.4.1106** with **R-4.0.4**
+_Visit https://cran.r-project.org/mirrors.html to download R_
 
+R Packages:
+_ggplot2_
+_lubridate_
+
+## Credits
+Data was provided by [Motivate] (https://www.motivateco.com/).
+This is a project for a course through [Udacity] (https://www.udacity.com/).
