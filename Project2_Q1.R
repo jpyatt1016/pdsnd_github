@@ -23,10 +23,10 @@ multi$Age <- (2017-multi$Birth.Year)
 ##Remove blanks in gender data
 multi<-multi[!(multi$Gender== ""), ]
 
-#Box plot of use age by gender. Removed users over 100 yrs age and under 16 (not likely)
+#Box plot of use age by gender. Removed users over 90 yrs age and under 16 (not likely)
 ggplot(aes(x = Gender, y = Age), data = multi)  +
   geom_boxplot() +
-  scale_y_continuous(breaks = seq(10,100, 10), lim = c(16, 100)) +
+  scale_y_continuous(breaks = seq(10,90, 10), lim = c(16, 90)) +
   facet_wrap(~City) +
   labs(title="Age and Gender of Users in Chicago and New York City")
 
