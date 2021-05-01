@@ -16,6 +16,7 @@ The following files were used:
 - chicago.csv
 - new-york-city.csv
 - washington.csv
+
 Data is provided by [Motivate](https://www.motivateco.com/).
 
 ## Installation
