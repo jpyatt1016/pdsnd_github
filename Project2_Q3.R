@@ -58,7 +58,7 @@ multi<-multi[!(multi$User.Type== ""), ]
 ##Graph trip duration by user type. Only showing trip length < 1 hour.
 ggplot(aes(x = User.Type, y=Trip.Duration), data = multi) +
   coord_cartesian(ylim =c(0, 3600)) +
-  geom_boxplot(aes(fill = as.factor(City)), show.legend = FALSE) +
+  geom_line(aes(fill = as.factor(City)), show.legend = FALSE) +
   labs(title = "Trip Durations of Customers and Subscribers", x = "", y = "Trip Duration (Minutes)") + 
   facet_wrap(~City)
 
