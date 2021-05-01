@@ -1,14 +1,14 @@
 
-###Created 5/1/2021 by Jill
+### _Created 5/1/2021_
 
-###Explore Motivate Bikeshare Data
+# Explore Motivate Bikeshare Data Project
 
 ## Description
 I aimed to answer questions about available bikeshare user data from Washington, Chicago and New York.
 My questions are:
--What is the age of bikeshare users by gender in Chicago and New York City?
--What months are the bikes used most?
--How does trip duration vary between customers and subscribers?
+- What is the age of bikeshare users by gender in Chicago and New York City?
+- What months are the bikes used most?
+- How does trip duration vary between customers and subscribers?
 
 ## Files used
 Data used in this project must be downloaded through [Udacity](https://www.udacity.com/).
